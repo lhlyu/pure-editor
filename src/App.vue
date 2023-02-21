@@ -1,7 +1,6 @@
 <template>
-    <PureEditor></PureEditor>
+    <h1>this is pure-editor</h1>
 </template>
 
 <script lang="ts" setup>
-import { PureEditor } from './pure-editor/index'
 </script>

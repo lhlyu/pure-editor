@@ -1,6 +1,6 @@
 {
   "name": "@lhlyu/pure-editor",
-  "version": "0.0.1-alpha.4",
+  "version": "0.0.1-alpha.5",
   "description": "a pure editor developed using codemirror",
   "author": "lhlyu",
   "repository": {
@@ -15,8 +15,8 @@
     "build": "vue-tsc --noEmit && vite build",
     "serve": "vite preview --host"
   },
-  "main": "dist/pure-editor.cjs",
-  "module": "dist/pure-editor.js",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist",
