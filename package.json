@@ -5,7 +5,7 @@
   "author": "lhlyu",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lhlyu/pure-editor.git"
+    "url": "https://github.com/lhlyu/pure-editor.git"
   },
   "homepage": "https://github.com/lhlyu/pure-editor",
   "type": "module",
