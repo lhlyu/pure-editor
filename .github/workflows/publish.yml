@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - run: ${{ env.TAG_NAME }}
+      - run: echo v${{ env.TAG_NAME }}
 #      - run: npm ci
 #      - run: npm publish
         env:
