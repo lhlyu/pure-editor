@@ -1,9 +1,11 @@
 node_modules
 .DS_Store
 dist
+.idea
 dist-ssr
 *.local
-my-lib.ts
-docs/zh-CN/components
-docs/en-US/components
-coverage
+*.lock
+upgrade.sh
+/yarn-error.log
+pnpm-lock.yaml
+todo.md

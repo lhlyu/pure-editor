@@ -1,12 +1,12 @@
 /// <reference types="vite/client" />
+// 上面的不能删除
 
-declare module 'virtual:generated-pages' {
-  import { RouteRecordRaw } from 'vue-router'
-  const routes: RouteRecordRaw[]
-  export default routes
+interface ImportMetaEnv {
+    readonly VITE_RUN_ENV: string
+    readonly VITE_BASE_URL: string
+    // more env variables...
 }
 
-declare module '~icons/*' {
-  const icon: any
-  export default icon
+interface ImportMeta {
+    readonly env: ImportMetaEnv
 }

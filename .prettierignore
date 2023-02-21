@@ -1,5 +1,11 @@
-node_modules/*
-# **/*.vue
-logs/*
-.nuxt
-nuxt.config.js
+*.md
+*.json
+*.yml
+*.yaml
+*.toal
+*.ini
+*.html
+.idea
+node_modules
+test
+dist
