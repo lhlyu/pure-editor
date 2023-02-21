@@ -3,6 +3,11 @@
   "version": "0.0.1-alpha.0",
   "description": "a pure editor developed using codemirror",
   "author": "lhlyu",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lhlyu/pure-editor.git"
+  },
+  "homepage": "https://github.com/lhlyu/pure-editor",
   "type": "module",
   "scripts": {
     "fmt": "prettier --write .",
