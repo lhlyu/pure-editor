@@ -1,8 +1,7 @@
 name: release
 on:
-  push:
-    tags:
-      - v*
+  create
+
 jobs:
   publish-npm:
     runs-on: ubuntu-latest
