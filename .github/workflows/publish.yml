@@ -1,7 +1,8 @@
 name: release
 on:
   push:
-    master
+    branches:
+      master
 #  create
 
 jobs:
