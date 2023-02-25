@@ -1,6 +1,8 @@
 name: release
 on:
-  create
+  push:
+    master
+#  create
 
 jobs:
   publish-npm:
@@ -11,7 +13,7 @@ jobs:
         with:
           node-version: 18
           registry-url: 'https://registry.npmjs.org/'
-      - run: cwd
+      - run: pwd
       - run: npm i
       - run: npm run build
       - run: npm publish --access public
