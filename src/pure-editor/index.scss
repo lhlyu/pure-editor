@@ -1,8 +1,63 @@
-* {
-    padding: 0;
-    margin: 0;
-}
+.pure-editor {
+    height: 100%;
+    background-color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: black;
+    caret-color: black;
 
-body {
-    color: red;
+    font-family: -apple-system, 'Noto Sans',
+        'Helvetica Neue', Helvetica, 'Nimbus Sans L', Arial,
+        'Liberation Sans', 'PingFang SC', 'Hiragino Sans GB',
+        'Noto Sans CJK SC', 'Source Han Sans SC',
+        'Source Han Sans CN', 'Microsoft YaHei',
+        'Wenquanyi Micro Hei', 'WenQuanYi Zen Hei',
+        'ST Heiti', SimHei, 'WenQuanYi Zen Hei Sharp',
+        sans-serif;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: 100%;
+    -ms-overflow-style: none;
+
+    // 编辑器聚焦
+    .cm-focused {
+        outline: none;
+    }
+
+    // 编辑器
+    .cm-editor {
+        height: 100%;
+
+        // 编辑器滚动条
+        .cm-scroller {
+            height: 100%;
+            overflow: auto;
+
+            // 左侧行号
+            .cm-gutters {
+
+                .cm-gutter {
+                    .cm-gutterElement {
+                        line-height: 2.2;
+                    }
+                }
+            }
+
+            // 编辑器内容
+            .cm-content {
+                padding: 0;
+                // 行
+                .cm-line {
+                    line-height: 1.7;
+                    padding: 4px 20px;
+                    border-bottom: 1px dashed #e5e5e5;
+                }
+
+                // 激活行
+                .cm-activeLine {
+                }
+            }
+        }
+    }
 }

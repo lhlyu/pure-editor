@@ -1,3 +1,3 @@
 # pure
 
-> a pure editor developed using codemirror
+> a pure editor developed using codemirror6

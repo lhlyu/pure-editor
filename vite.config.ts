@@ -10,7 +10,7 @@ export default defineConfig({
         lib: {
             entry: 'src/pure-editor/index.ts',
             formats: ['cjs', 'es', 'umd'],
-            name: 'index',
+            name: 'PureEditor',
             fileName: 'index',
         },
         rollupOptions: {
